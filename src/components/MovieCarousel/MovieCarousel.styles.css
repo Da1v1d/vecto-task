@@ -1,0 +1,25 @@
+.carousel__container {
+  width: calc(100vw-120px);
+  user-select: none;
+}
+
+.carousel {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 15px;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel img {
+  user-select: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}

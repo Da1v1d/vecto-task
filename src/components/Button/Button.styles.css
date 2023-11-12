@@ -1,0 +1,30 @@
+button {
+  border: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  min-width: 160px;
+  min-height: 42px;
+  padding: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button p {
+  font-size: 22px;
+  color: black;
+  margin: 0;
+}
+
+button img {
+  width: 18px;
+  margin-right: 7px;
+}
+
+.button__blue {
+  background: rgb(4, 18, 211);
+}
+.button__blue p {
+  color: white;
+}
